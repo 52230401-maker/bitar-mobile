@@ -2,6 +2,8 @@
 
 A storefront for Bitar Mobile, a phone shop in Lebanon. You can browse phones, smartwatches, earbuds and accessories, add them to a cart, and send the shop a message.
 
+![Bitar Mobile home page](docs/screenshots/home.png)
+
 It is a front-end project. There is no server and no database behind it, so a few things are simulated. More on that under [What it doesn't do](#what-it-doesnt-do).
 
 ## What's in it
@@ -13,6 +15,23 @@ It is a front-end project. There is no server and no database behind it, so a fe
 - Login and signup pages, plus a small account page
 - A contact page with the shop's phone numbers and a message form
 - A layout that works on phones. The sidebar turns into a top bar on small screens.
+
+## Screenshots
+
+A category page, with search and the product cards:
+
+![Smartphones category page](docs/screenshots/products.png)
+
+The cart:
+
+![Cart with two products and the order summary](docs/screenshots/cart.png)
+
+On a phone:
+
+<p>
+  <img src="docs/screenshots/mobile-home.png" alt="Home page on a phone" width="300" />
+  <img src="docs/screenshots/mobile-products.png" alt="Smartwatches page on a phone" width="300" />
+</p>
 
 ## Built with
 
@@ -68,6 +87,7 @@ src/
   utils/
     formatCurrency.js
 public/products/      product illustrations (SVG)
+docs/screenshots/     the images used in this README
 ```
 
 Products are written directly in the component files. To add or change one, edit the array at the top of the matching category file, for example `src/components/SmartPhones.jsx`.
